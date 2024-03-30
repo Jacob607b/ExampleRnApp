@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/partial components NavBar Logo Snapshot 1`] = `
+<View>
+  <Image
+    resizeMode="contain"
+    source={1}
+    style={
+      Object {
+        "height": 30,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`/partial components Success modal 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "flexDirection": "column",
+          "fontWeight": "bold",
+          "justifyContent": "center",
+          "padding": 20,
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <Text>
+        Success! Please go to the next page and confirm all the information you provided.
+      </Text>
+      <View
+        accessibilityState={
+          Object {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          Object {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="navBtn"
+      >
+        <Text>
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "backgroundColor": "rgb(247, 243, 249)",
+                "borderRadius": 20,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.15,
+                "shadowRadius": 3,
+              }
+            }
+            testID="button-container-outer-layer"
+          >
+            <View
+              className="SuccessModal"
+              collapsable={false}
+              style={
+                Object {
+                  "backgroundColor": "rgb(247, 243, 249)",
+                  "borderColor": "transparent",
+                  "borderRadius": 20,
+                  "borderStyle": "solid",
+                  "borderWidth": 0,
+                  "flex": undefined,
+                  "minWidth": 64,
+                  "shadowColor": "#000",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 1,
+                }
+              }
+              testID="button-container"
+            >
+              <View
+                accessibilityRole="button"
+                accessibilityState={
+                  Object {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": true,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  Object {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 20,
+                    },
+                  ]
+                }
+                testID="button"
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <Text
+                    numberOfLines={1}
+                    selectable={false}
+                    style={
+                      Array [
+                        Object {
+                          "textAlign": "left",
+                        },
+                        Object {
+                          "color": "rgba(28, 27, 31, 1)",
+                          "writingDirection": "ltr",
+                        },
+                        Array [
+                          Object {
+                            "fontFamily": "System",
+                            "fontSize": 14,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.1,
+                            "lineHeight": 20,
+                          },
+                          Array [
+                            Object {
+                              "marginHorizontal": 16,
+                              "marginVertical": 9,
+                              "textAlign": "center",
+                            },
+                            false,
+                            Object {
+                              "marginHorizontal": 24,
+                              "marginVertical": 10,
+                            },
+                            undefined,
+                            false,
+                            Object {
+                              "color": "rgba(103, 80, 164, 1)",
+                              "fontFamily": "System",
+                              "fontSize": 14,
+                              "fontWeight": "500",
+                              "letterSpacing": 0.1,
+                              "lineHeight": 20,
+                            },
+                            undefined,
+                          ],
+                        ],
+                      ]
+                    }
+                    testID="button-text"
+                  >
+                    NEXT
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </Text>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

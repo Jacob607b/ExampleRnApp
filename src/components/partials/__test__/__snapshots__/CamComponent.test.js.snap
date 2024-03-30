@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cam Component Cam Component RTL 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "height": "100%",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <ViewManagerAdapter_ExpoCamera
+        collapsable={false}
+        faceDetectorSettings={Object {}}
+        focusDepth={0}
+        handlerTag={1}
+        handlerType="PinchGestureHandler"
+        onCameraReady={[Function]}
+        onFacesDetected={[Function]}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        onMountError={[Function]}
+        onPictureSaved={[Function]}
+        onResponsiveOrientationChanged={[Function]}
+        testID="pinch"
+        zoom={[MockFunction]}
+      >
+        <View
+          accessibilityState={
+            Object {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            Object {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "position": "absolute",
+              "right": 20,
+              "top": 20,
+              "zIndex": 1,
+            }
+          }
+          testID="flash"
+        >
+          <Text>
+            <View
+              style={
+                Object {
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "marginVertical": "50%",
+              "paddingTop": "100%",
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              Object {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "borderRadius": 50,
+                "opacity": 1,
+              }
+            }
+            testID="takePicture"
+          >
+            <Text>
+              <View
+                style={
+                  Object {
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "transparent",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+              </View>
+            </Text>
+          </View>
+          <Text
+            style={
+              Object {
+                "marginBottom": 10,
+                "marginTop": 20,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                Object {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                Object {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="closeCamera"
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 20,
+                  }
+                }
+              >
+                Close Camera
+              </Text>
+            </View>
+          </Text>
+        </View>
+      </ViewManagerAdapter_ExpoCamera>
+    </View>
+  </View>
+</View>
+`;
